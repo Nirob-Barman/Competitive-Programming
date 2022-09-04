@@ -15,4 +15,10 @@
 * n!(n factorial) নির্ণয় কর।
 * n ও r দেওয়া আছে, তোমাকে () n!/(r!(n-r)!) প্রিন্ট করতে হবে।
 * x ও n দেওয়া আছে, তোমাকে cos x এর মান ম্যাকলরিনের ধারার সাহায্যে বের করতে হবে।
-* কিছু OJ এর প্রবলেম
+* কিছু OJ এর প্রবলেম: - Timus 1083 - Timus 1086 - Timus 1209
+- LightOJ 1001 LightOJ 1008 - LightOJ 1010 - LightOJ 1015 
+- LightOJ 1022 LightOJ 1053 - LightOJ 1069 LightOJ 1072
+- LightOJ 1107 - LightOJ 1116 - LightOJ 1136 - LightOJ 1182
+- LightOJ 1202 - LightOJ 1211 - LightOJ 1216 - LightOJ 1294 
+- LightOJ 1305-LightOJ 1311 - LightOJ 1331 - LightOJ 1433
+- Last but not the least UVa 100
