@@ -1,2 +1,2 @@
-
-The New Lower Bound of Programming Contest)
+Competitive Programming 3
+(The New Lower Bound of Programming Contest)
