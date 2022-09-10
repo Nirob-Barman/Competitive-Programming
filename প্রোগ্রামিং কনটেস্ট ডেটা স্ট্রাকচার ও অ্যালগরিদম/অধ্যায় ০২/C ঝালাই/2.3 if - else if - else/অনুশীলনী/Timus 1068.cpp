@@ -10,4 +10,6 @@ int main()
 
     if(n<0)
         printf("%d\n",1+(n*(1-n)/2));
+    
+    return 0;
 }
