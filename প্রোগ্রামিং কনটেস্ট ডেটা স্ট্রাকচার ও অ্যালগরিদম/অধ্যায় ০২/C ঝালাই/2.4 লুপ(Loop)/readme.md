@@ -6,7 +6,7 @@
   3. 1<sup>1</sup>+2<sup>2</sup>+3<sup>3</sup>+..............+n<sup>n</sup>
   4. 1+(2+3)+(4+5+6)+.......+nth term
   5. 1-2+3-4+5.........nth term
-  6. ![](https://latex.codecogs.com/gif.latex?%5Cinline%201&plus;%282&plus;3*4%29&plus;%285&plus;6*7&plus;8*9*10%29&plus;.......&plus;%20nth) term
+  6. ![](https://latex.codecogs.com/gif.latex?%5Cinline%201&plus;%282&plus;3*4%29&plus;%285&plus;6*7*8*9*10%29&plus;%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20&plus;nth%5C%2C%20%5C%2C%20%5C%2C%20term)
   8. ![](https://latex.codecogs.com/gif.latex?%5Cinline%201*n&plus;2*%28n-1%29&plus;.......n*1)
 
 * n ইনপুটের জন্য বিভিন্ন ধরণের পিরামিড প্রিন্ট করার প্রোগ্রাম
