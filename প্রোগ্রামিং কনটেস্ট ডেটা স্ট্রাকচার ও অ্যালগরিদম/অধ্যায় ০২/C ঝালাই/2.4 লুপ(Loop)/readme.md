@@ -1,7 +1,7 @@
 ### অনুশীলনী
 
 * নিচের সিরিজগুলো কোড লিখে সমাধান করো
-  1. 1+2+3+..............+n
+  1. ![](https://latex.codecogs.com/gif.latex?1&plus;2&plus;3&plus;%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20&plus;n)
   2. 1<sup>2</sup>+2<sup>2</sup>+3<sup>2</sup>+..............+n<sup>2</sup>
   3. 1<sup>1</sup>+2<sup>2</sup>+3<sup>3</sup>+..............+n<sup>n</sup>
   4. ![](https://latex.codecogs.com/gif.latex?%5Cinline%201&plus;%282&plus;3%29&plus;%284&plus;5&plus;6%29&plus;%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot&plus;nth%5C%2C%20%5C%2C%20%5C%2C%20term)
