@@ -5,7 +5,7 @@
   2. 1<sup>2</sup>+2<sup>2</sup>+3<sup>2</sup>+..............+n<sup>2</sup>
   3. 1<sup>1</sup>+2<sup>2</sup>+3<sup>3</sup>+..............+n<sup>n</sup>
   4. ![](https://latex.codecogs.com/gif.latex?%5Cinline%201&plus;%282&plus;3%29&plus;%284&plus;5&plus;6%29&plus;%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot&plus;nth%5C%2C%20%5C%2C%20%5C%2C%20term)
-  5. 1-2+3-4+5.........nth term
+  5. ![](https://latex.codecogs.com/gif.latex?%5Cinline%201-2&plus;3-4&plus;5%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20nth%5C%2C%20%5C%2C%20%5C%2C%20term)
   6. ![](https://latex.codecogs.com/gif.latex?%5Cinline%201&plus;%282&plus;3*4%29&plus;%285&plus;6*7*8*9*10%29&plus;%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20%5Ccdot%20&plus;nth%5C%2C%20%5C%2C%20%5C%2C%20term)
   8. ![](https://latex.codecogs.com/gif.latex?%5Cinline%201*n&plus;2*%28n-1%29&plus;.......n*1)
 
