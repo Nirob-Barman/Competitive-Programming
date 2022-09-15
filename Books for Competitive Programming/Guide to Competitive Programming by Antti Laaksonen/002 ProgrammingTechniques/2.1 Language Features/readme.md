@@ -114,12 +114,17 @@ cout << b << "\n"; // -1757895751
 
 We denote by x mod m the remainder when x is divided by m. For example, 17 mod 5 = 2, because 17 = 3 · 5 + 2. An important property of remainders is that the following formulas hold:
 
-<p align="center">
+
+<p align="center"
 
 (a + b) mod m = (a mod m + b mod m) mod m
+   
+<p align="center"
 
 (a − b) mod m = (a mod m − b mod m) mod m
 
+<p align="center"
+   
 (a · b) mod m = (a mod m · b mod m) mod m
 
 </p>
