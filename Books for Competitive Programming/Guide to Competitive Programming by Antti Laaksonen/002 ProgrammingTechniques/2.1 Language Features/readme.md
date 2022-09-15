@@ -97,3 +97,32 @@ output to the file “output.txt”.
 2.1.2 Working with Numbers
 ---
 
+
+The following code defines a long long variable:
+```
+long long x = 123456789123456789LL;
+```
+The suffix LL means that the type of the number is long long.
+
+A common mistake when using the type long long is that the type int is still used somewhere in the code. For example, the following code contains a subtle error:
+```
+int a = 123456789;
+long long b = a*a;
+cout << b << "\n"; // -1757895751
+```
+**Modular Arithmetic**
+
+We denote by x mod m the remainder when x is divided by m. For example, 17 mod 5 = 2, because 17 = 3 · 5 + 2. An important property of remainders is that the following formulas hold:
+
+<p align="center">
+
+(a + b) mod m = (a mod m + b mod m) mod m
+
+(a − b) mod m = (a mod m − b mod m) mod m
+
+(a · b) mod m = (a mod m · b mod m) mod m
+
+</p>
+
+Thus, we can take the remainder after every operation, and the numbers will never become too large.
+
