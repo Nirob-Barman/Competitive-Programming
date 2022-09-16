@@ -131,3 +131,111 @@ We denote by x mod m the remainder when x is divided by m. For example, 17 mod 5
 
 Thus, we can take the remainder after every operation, and the numbers will never become too large.
 
+
+For example, the following code calculates n!, the factorial of n, modulo m:
+```
+long long x = 1;
+for (int i = 1; i <= n; i++) {
+x = (x*i)%m;
+}
+cout << x << "\n";
+```
+
+**Floating Point Numbers**
+The most useful floating point types in C++ are the 64-bit double and, as an extension in the g++ compiler, the 80-bit long double. In most cases, double is enough, but long double is more accurate.
+
+ For example, the following code prints the value of x with 9 decimal places:
+```
+printf("%.9f\n", x);
+```
+
+
+A difficulty when using floating point numbers is that some numbers cannot be represented accurately as floating point numbers, and there will be rounding errors. For example, in the following code, the value of x is slightly smaller than 1, while the correct value would be 1.
+```
+double x = 0.3*3+0.1; 
+printf("%.20f\n", x); // 0.99999999999999988898
+```
+It is risky to compare floating point numbers with the == operator, because it is possible that the values should be equal but they are not because of precision errors. A better way to compare floating point numbers is to assume that two numbers are equal if the difference between them is less than ε, where ε is a small number. For example, in the following code ε = 10<sup>−9</sup>:
+
+
+```
+if (abs(a-b) < 1e-9) {
+// a and b are equal
+}
+```
+Note that while floating point numbers are inaccurate, integers up to a certain limit can still be represented accurately. For example, using double, it is possible
+to accurately represent all integers whose absolute value is at most 2<sup>53</sup>.
+
+
+
+
+
+
+
+
+
+
+2.1.3 Shortening Code
+---
+Type Names The command typedef can be used to give a short name to a data type. For example, the name long long is long, so we can define a short name
+ll as follows:
+```
+typedef long long ll;
+```
+After this, the code
+```
+long long a = 123456789;
+long long b = 987654321;
+cout << a*b << "\n";
+```
+can be shortened as follows:
+```
+ll a = 123456789;
+ll b = 987654321;
+cout << a*b << "\n";
+```
+The command typedef can also be used with more complex types. For example, the following code gives the name vi for a vector of integers, and the name pi for
+a pair that contains two integers.
+```
+typedef vector<int> vi;
+typedef pair<int,int> pi;
+```
+Macros Another way to shorten code is to define macros. A macro specifies that certain strings in the code will be changed before the compilation. In C++, macros
+are defined using the #define keyword. For example, we can define the following macros:
+```
+#define F first
+#define S second
+#define PB push_back
+#define MP make_pair
+```
+
+
+
+
+```
+v.push_back(make_pair(y1,x1));
+v.push_back(make_pair(y2,x2));
+int d = v[i].first+v[i].second;
+```
+can be shortened as follows:
+```
+v.PB(MP(y1,x1));
+v.PB(MP(y2,x2));
+int d = v[i].F+v[i].S;
+```
+A macro can also have parameters, which makes it possible to shorten loops and other structures. For example, we can define the following macro:
+```
+#define REP(i,a,b) for (int i = a; i <= b; i++)
+```
+After this, the code
+```
+for (int i = 1; i <= n; i++) {
+search(i);
+}
+```
+can be shortened as follows:
+```
+REP(i,1,n) {
+search(i);
+}
+```
