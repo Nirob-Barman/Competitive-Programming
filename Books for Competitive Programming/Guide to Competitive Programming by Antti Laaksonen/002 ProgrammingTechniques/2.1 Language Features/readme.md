@@ -21,7 +21,6 @@ int main() {
 
 
 
-
 2.1.1 Input and Output
 ---
 In most contests, standard streams are used for reading input and writing output. In C++, the standard streams are cin for input and cout for output. Also C functions, such as scanf and printf, can be used.
@@ -102,6 +101,14 @@ output to the file “output.txt”.
 
 
 
+
+
+
+
+
+
+
+
 2.1.2 Working with Numbers
 ---
 
@@ -148,6 +155,10 @@ x = (x*i)%m;
 }
 cout << x << "\n";
 ```
+
+
+
+
 
 **Floating Point Numbers**
 The most useful floating point types in C++ are the 64-bit double and, as an extension in the g++ compiler, the 80-bit long double. In most cases, double is enough, but long double is more accurate.
