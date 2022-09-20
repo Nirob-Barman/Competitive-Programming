@@ -2,6 +2,7 @@
 ---
 A typical C++ code template for competitive programming looks like this:
 
+
 ```
 #include <bits/stdc++.h>
 
@@ -13,8 +14,6 @@ int main() {
 
 }
 ```
-
-
 
 
 
