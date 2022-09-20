@@ -36,10 +36,13 @@ This kind of code always works, assuming that there is at least one space or new
 ```
 123 456 monkey
 ```
+
+
 ```
 123 456
 monkey
 ```
+
 
 
 The cout stream is used for output as follows:
