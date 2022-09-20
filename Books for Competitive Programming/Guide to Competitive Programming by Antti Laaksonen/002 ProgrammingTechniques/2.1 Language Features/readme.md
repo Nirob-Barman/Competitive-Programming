@@ -109,8 +109,6 @@ output to the file “output.txt”.
 
 
 
-
-
 2.1.2 Working with Numbers
 ---
 
