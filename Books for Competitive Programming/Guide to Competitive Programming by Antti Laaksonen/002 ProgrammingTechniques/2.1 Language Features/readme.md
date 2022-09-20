@@ -44,7 +44,6 @@ monkey
 ```
 
 
-
 The cout stream is used for output as follows:
 ```
 int a = 123, b = 456;
@@ -61,7 +60,6 @@ cin.tie(0);
 
 
 
-
 Note that the newline "\n"works faster than endl, because endl always causes a flush operation.
 
 The C functions scanf and printf are an alternative to the C++ standard streams. They are usually slightly faster, but also more difficult to use. The following code reads two integers from the input:
@@ -69,6 +67,7 @@ The C functions scanf and printf are an alternative to the C++ standard streams.
 int a, b;
 scanf("%d %d", &a, &b);
 ```
+
 
 
 The following code prints two integers:
