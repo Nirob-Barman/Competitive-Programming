@@ -35,6 +35,7 @@ string x;
 cin >> a >> b >> x;
 ```
 
+
 This kind of code always works, assuming that there is at least one space or newline between each element in the input. For example, the above code can read both the following inputs:
 
 ```
