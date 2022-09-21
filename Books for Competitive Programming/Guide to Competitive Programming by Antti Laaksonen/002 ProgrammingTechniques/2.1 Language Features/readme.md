@@ -28,6 +28,7 @@ In most contests, standard streams are used for reading input and writing output
 
 The input for the program usually consists of numbers and strings separated with spaces and newlines. They can be read from the cin stream as follows:
 
+
 ```
 int a, b;
 string x;
