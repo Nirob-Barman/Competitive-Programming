@@ -25,6 +25,7 @@ int main() {
 In most contests, standard streams are used for reading input and writing output. In C++, the standard streams are cin for input and cout for output. Also C functions, such as scanf and printf, can be used.
 
 
+
 The input for the program usually consists of numbers and strings separated with spaces and newlines. They can be read from the cin stream as follows:
 
 ```
