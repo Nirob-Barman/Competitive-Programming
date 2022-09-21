@@ -52,6 +52,7 @@ monkey
 
 
 The cout stream is used for output as follows:
+
 ```
 int a = 123, b = 456;
 string x = "monkey";
