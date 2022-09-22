@@ -63,7 +63,6 @@ for (int i = 1; i <= n; i += 2) {
 ```
 
 
-
 As another example, the time complexity of the following code is O(n2), because the code inside the loop is executed 1 + 2 + . . . + n = <sup>1</sup>&frasl;<sub>2</sub> (n<sup>2</sup> + n) times.
 
 ```
