@@ -95,6 +95,7 @@ for (int i = 1; i <= n; i++) {
 ```
 
 Sometimes the time complexity depends on several factors, and the time complexity formula contains several variables. For example, the time complexity of the following code is O(nm):
+
 ```
 for (int i = 1; i <= n; i++) {
 for (int j = 1; j <= m; j++) {
