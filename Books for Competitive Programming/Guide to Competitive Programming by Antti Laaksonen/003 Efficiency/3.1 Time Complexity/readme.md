@@ -11,6 +11,7 @@ A time complexity is denoted O(· · · ) where the three dots represent some fu
 3.1.1 Calculation Rules
 ---
 If a code consists of single commands, its time complexity is O(1). For example, the time complexity of the following code is O(1).
+
 ```
 a++;
 b++;
