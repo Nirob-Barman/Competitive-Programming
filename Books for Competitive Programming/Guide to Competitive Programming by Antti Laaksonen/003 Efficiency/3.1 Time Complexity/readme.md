@@ -124,6 +124,7 @@ g(n-1);
 g(n-1);
 }
 ```
+
 What happens when the function is called with a parameter n? First, there are two calls with parameter n−1, then four calls with parameter n−2, then eight calls with parameter n − 3, and so on. In general, there will be 2<sup>k</sup> calls with parameter n − k where k = 0, 1, . . . , n − 1. Thus, the time complexity is
 
 <p align="center"
