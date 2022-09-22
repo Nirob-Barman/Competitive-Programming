@@ -43,6 +43,7 @@ for (int j = 1; j <= n; j++) {
 In general, if there are k nested loops and each loop goes through n values, the time complexity is O(n<sup>k</sup>).
 
 A time complexity does not tell us the exact number of times the code inside a loop is executed, because it only shows the order of growth and ignores the constant factors. In the following examples, the code inside the loop is executed 3n, n + 5, and ⌈n/2⌉ times, but the time complexity of each code is O(n).
+
 ```
 for (int i = 1; i <= 3*n; i++) {
 ...
