@@ -21,6 +21,7 @@ c = a+b;
 
 
 The time complexity of a loop estimates the number of times the code inside the loop is executed. For example, the time complexity of the following code is O(n), because the code inside the loop is executed n times.We assume that “...” denotes a code whose time complexity is O(1).
+
 ```
 for (int i = 1; i <= n; i++) {
 ...
